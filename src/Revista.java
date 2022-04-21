@@ -23,9 +23,8 @@ public class Revista extends Fitxa{
 
 	@Override
 	public String visualtizar() {
-		System.out.println("Referencia: " + this.getReferencia()+"\nTitol: " + this.getTitol()+"\nAny: " +
-		this.getAny()+"\nNúmero de volum: " + this.getNro());
-		return null;
+		return "Referencia: " + this.getReferencia()+"\nTitol: " + this.getTitol()+"\nAny: " +
+		this.getAny()+"\nNúmero de volum: " + this.getNro();
 	}
 
 	@Override

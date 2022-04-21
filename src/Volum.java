@@ -19,9 +19,8 @@ public class Volum extends Obra{
 
 	@Override
 	public String visualtizar() {
-		System.out.println("Referencia: " + this.getReferencia()+"\nTitol: " + this.getTitol()+"\nAutor: " +
-		this.getAutor()+"\nNúmero de pàgines: " + this.getNrePags()+"\nNúmero de volum: " + this.getNro());
-		return null;
+		return"Referencia: " + this.getReferencia()+"\nTitol: " + this.getTitol()+"\nAutor: " +
+		this.getAutor()+"\nNúmero de pàgines: " + this.getNrePags()+"\nNúmero de volum: " + this.getNro();
 	}
 
 	@Override

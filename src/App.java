@@ -5,8 +5,9 @@ public class App {
 		Revista r1 = new Revista("r1", "titol", 1999, 1);
 		
 		System.out.println("\nVolum: ");
-		v1.visualtizar();
+		System.out.println(v1.visualtizar());
+
 		System.out.println("\nRevista:");
-		r1.visualtizar();
+		System.out.println(r1.visualtizar());
 	}
 }
